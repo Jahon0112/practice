@@ -33,10 +33,11 @@ car_dict = dict(name="Tayota", year=2026, electric=True)
 
 try:
     print("passed here")
+    # an= car_dict.speed
     result = car_dict["origin"]
     print("result:", result)
-except KeyError as err:
-    print("no origin state property found:", err)
+except Exception as err:
+    print("General Error:", err)
 else:
     print("Executed successfully without errors")
 finally:
