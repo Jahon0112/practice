@@ -20,7 +20,10 @@ print(type(array))
 print(type(math))
 
 # Paradigms > functional programming(chiziqli programming) & OOP (object oriented progeamming)
-# OOP 4 concepts > Abstraction | Encapsulation | Inheritence | Polimorpism
+# OOP 4 concepts > 1)Abstraction(Mashina tormizi,qandey ishlashi muhim emas,ishlata olish mihim)
+# |2)Encapsulation(kamsulaga olish ,himoyalash , tashqi olamdan himoya qilish)
+# |3)Inheritence
+# |4)Polimorpism
 result1 = math.ceil(97.7)  # CALL
 print("result1:", result1)
 
